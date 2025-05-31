@@ -1,0 +1,17 @@
+{
+  "name": "skripsi-ai",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwindcss": "^3.3.0",
+    "@supabase/supabase-js": "^2.0.0"
+  }
+}
