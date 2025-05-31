@@ -7,8 +7,16 @@ export default function Home() {
         Selamat Datang di SkripsiAI
       </h1>
       <p style={{ fontSize: "1rem", color: "#666" }}>
-        Silakan buka App.jsx melalui browser untuk melihat aplikasi.
+        Akses aplikasi melalui:
       </p>
+      <div style={{ marginTop: "2rem" }}>
+        <a
+          href="/app"
+          style={{ color: "#4F46E5", textDecoration: "underline" }}
+        >
+          Buka Aplikasi SkripsiAI
+        </a>
+      </div>
     </div>
   );
 }
