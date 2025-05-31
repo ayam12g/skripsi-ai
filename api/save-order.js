@@ -21,7 +21,7 @@ export default async function handler(req, res) {
   ]);
 
   if (error) {
-    console.error(error);
+    console.error("Supabase Error:", error.message);
     return res.status(500).json({ success: false });
   }
 
