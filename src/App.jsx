@@ -18,7 +18,7 @@ export default function App() {
       id: 1,
       name: "Paket Gratis",
       price: 0,
-      features: ["Hanya membuat Judul Skripsi", "Tanpa isi konten"],
+      features: ["Hanya untuk membuat Judul Skripsi", "Tanpa isi konten"],
       allowedFields: ["topic"],
     },
     {
@@ -283,9 +283,7 @@ export default function App() {
             {loading ? (
               <div className="text-center py-8 text-gray-500">Sedang memproses...</div>
             ) : result ? (
-              <pre className="whitespace-pre-wrap text-sm text-gray-700">
-                {result}
-              </pre>
+              <pre className="whitespace-pre-wrap text-sm text-gray-700">{result}</pre>
             ) : (
               <div className="text-center py-8 text-gray-400">Belum ada hasil</div>
             )}
